@@ -36,6 +36,6 @@
     }
 
     to {
-        transform: translate(-10%, 10%) skew(-10deg);
+        transform: translate(-10%, 10%) skew(-12deg);
     }
 }
