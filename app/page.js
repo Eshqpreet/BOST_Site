@@ -5,10 +5,11 @@ import { Logo } from "@/components/Icons/logo";
 import { buttonicon } from "@/components/Icons/Buttonicon";
 import Clients from "@/components/clients";
 import HeroImage from "@/components/Hero-image";
+import Animation from "@/components/animation";
+
 export default function HomePage() {
   return (
     <div>
-
       <Container className="py-[6.4rem]">
         <Hero>
           <Button className="animate-fade-in opacity-0 translate-y-[-1rem]" href="/" variant="secondary" size="small">
@@ -19,7 +20,8 @@ export default function HomePage() {
               </svg></div>
             </div>
           </Button>
-          <HeroTitle className="animate-fade-in [animation-delay:200ms] opacity-0 translate-y-[-1rem]"> Linear is a better way <br className="hidden md:block" /> to build products</HeroTitle>
+          <Animation />
+          <HeroTitle className="animate-fade-in [animation-delay:200ms] opacity-0 translate-y-[-1rem] "> Linear is a better way <br className="hidden md:block" /> to build products</HeroTitle>
           <HeroSubtitle className="animate-fade-in [animation-delay:400ms] opacity-0 translate-y-[-1rem]">Meet the new standard for modern software development. <br className="hidden md:block" />Streamline issues, sprints, and product roadmaps.</HeroSubtitle>
           <Button className="animate-fade-in [animation-delay:600ms] opacity-0 translate-y-[-1rem]" href="/" variant="primary" size="large">
             <div className="flex items-center gap-2 py-1">
@@ -29,11 +31,11 @@ export default function HomePage() {
               </svg></div>
             </div>
           </Button>
-          <HeroImage/>
+          <HeroImage />
         </Hero>
       </Container>
       <Container>
-        <Clients/>
+        <Clients />
       </Container>
     </div>
   );
