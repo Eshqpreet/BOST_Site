@@ -25,6 +25,12 @@
     }
 }
 
+@layer components{
+    .imgSlider{
+        @apply rounded-xl w-[800px] h-[400px] shadow-lg shadow-purple-500
+    }
+}
+
 
 #gooey {
     animation: gooey 4s ease-in-out infinite alternate;
@@ -39,14 +45,18 @@
 }
 
 .swiper-pagination-bullet-active {
-    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)!important;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%) !important;
     border: none !important;
 }
 
 .swiper {
     padding-bottom: 70px !important;
 }
-
+.hi{
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    border-radius: 12px;
+    box-shadow: 0px 20px 70px rgba(0, 103, 225, 0.3) !important;
+}
 .swiper-slide.swiper-slide-next {
     background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
     border-radius: 12px;
