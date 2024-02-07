@@ -23,10 +23,18 @@
         background-clip: text;
         color: transparent;
     }
+
+    .mask-radial-faded {
+        mask-image: radial-gradient(circle at center center, black, transparent 80%)
+    }
+
+    .mask-linear-faded {
+        mask-image: linear-gradient(black, transparent 70%)
+    }
 }
 
-@layer components{
-    .imgSlider{
+@layer components {
+    .imgSlider {
         @apply rounded-xl w-[800px] h-[400px] shadow-lg shadow-purple-500
     }
 }
@@ -52,11 +60,13 @@
 .swiper {
     padding-bottom: 70px !important;
 }
-.hi{
+
+.hi {
     background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
     border-radius: 12px;
     box-shadow: 0px 20px 70px rgba(0, 103, 225, 0.3) !important;
 }
+
 .swiper-slide.swiper-slide-next {
     background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
     border-radius: 12px;
