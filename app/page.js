@@ -36,7 +36,7 @@ export default function HomePage() {
           <ImageSlider />
         </section>
 
-        <section className="mt-[10rem]">
+        {/* <section className="mt-[10rem]">
           <div className="text-center">
             <h2 className="text-3xl mb-4 md:mb-7 md:text-6xl">
               What People Say
@@ -46,7 +46,7 @@ export default function HomePage() {
               At BOST, it's not just education; it's an experience that speaks for itself. Students and visionaries alike echo the sentiment – BOST is where potential turns into achievement. The buzz is real, the excitement palpable. Discover what people say about us and step into a world where success has a voice – yours.</p>
           </div>
           <Testimonials />
-        </section>
+        </section> */}
         <div className={classNames("h-[60rem] overflow-hidden mb-[-12.8rem] mt-[-1.8rem] relative mask-radial-faded pointer-index-none z-[-1]",
           "before:bg-radial-faded [--color:#7877C6] before:absolute before:inset-0 before:opacity-[0.4]",
           "after:absolute after:h-[142%] after:bg-background after:rounded-[50%] after:border-[rgba(120,_119,_198,_0.4)] after:border-t after:top-1/2 after:-left-1/2 after:w-[200%]"
