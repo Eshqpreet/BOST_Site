@@ -15,7 +15,7 @@ const Footer = () => {
                             <Image src={Logo} className='w-[80px]' />
                         </div>
                         <div className='flex flex-col '>
-                            <h2 className="text-lg text-center mb-4 md:mb-7 md:text-3xl">
+                            <h2 className="text-xl text-center mb-4 md:mb-7 md:text-3xl">
                                 Board of Science and Technology
                             </h2>
                             <span className='flex items-center text-center justify-evenly px-2'>
