@@ -11,6 +11,7 @@ import ImageSlider from "@/components/ImageSlider/imageSlider";
 import classNames from "classnames";
 import { StarsIllustration } from "@/components/Icons/stars";
 import TeamList from "@/components/Team/TeamList";
+import ClubsList from "@/components/Clubs/ClubsList";
 
 export default function HomePage() {
   return (
@@ -59,7 +60,7 @@ export default function HomePage() {
         {/* <div className="relative z-[5] mt-[-55px]">
           <TeamList />
         </div> */}
-
+        <ClubsList />
 
       </Container>
     </div>
