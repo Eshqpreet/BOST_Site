@@ -10,6 +10,7 @@ import Testimonials from "@/components/Testimonials/testimonials";
 import ImageSlider from "@/components/ImageSlider/imageSlider";
 import classNames from "classnames";
 import { StarsIllustration } from "@/components/Icons/stars";
+import TeamList from "@/components/Team/TeamList";
 
 export default function HomePage() {
   return (
@@ -55,6 +56,9 @@ export default function HomePage() {
             <StarsIllustration />
           </div>
         </div>
+        {/* <div className="relative z-[5] mt-[-55px]">
+          <TeamList />
+        </div> */}
 
 
       </Container>

@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header/>
+        {/* <Header/> */}
         <main className="pt-[var(--navigationheight)] bg-page-gradient">{children}
         </main>
         <Footer/>

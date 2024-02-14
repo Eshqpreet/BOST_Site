@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    resolve: {
-        modules: ['node_modules', './icons'],
-        // other resolve configurations...
-      },
-}
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
+  resolve: {
+    modules: ['node_modules', './icons'],
+    // other resolve configurations...
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
