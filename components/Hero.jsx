@@ -1,7 +1,7 @@
 import classNames from "classnames";
 export const HeroTitle = ({ children,className}) => {
   return (
-    <h1 className={classNames("text-6xl md:text-8xl my-6 pb-3 text-gradient",className)}>
+    <h1 className={classNames("text-6xl md:text-9xl my-6 pb-3 text-gradient",className)}>
       {children}
     </h1>
   );

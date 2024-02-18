@@ -12,6 +12,8 @@ import classNames from "classnames";
 import { StarsIllustration } from "@/components/Icons/stars";
 import TeamList from "@/components/Team/TeamList";
 import ClubsList from "@/components/Clubs/ClubsList";
+import Teammain from "@/components/sections/team_main";
+import Reps from "@/components/sections/reps";
 
 export default function HomePage() {
   return (
@@ -62,7 +64,12 @@ export default function HomePage() {
         </div> */}
         <ClubsList />
 
+
       </Container>
+      <div className="my-[25.2rem]">
+        <Teammain />
+      </div>
+      <Reps/>
     </div>
   );
 }

@@ -22,7 +22,8 @@ export default {
         "5xl": "4rem",
         "6xl": ["4.4rem", "1.1"],
         "7xl": ["4.8rem", "1.1"],
-        "8xl": ["8rem", "1.1"],
+        "8xl": ["6.5rem", "1.1"],
+        "9xl": ["8rem", "1.1"],
       },
       colors: {
         white: "#fff",
