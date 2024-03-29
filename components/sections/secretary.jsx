@@ -1,19 +1,19 @@
 "use client";
 import Teamtemplate from "../teamtemplate";
-import { rep } from "@/public/data/team.js";
-export default function Reps() {
+import { secretary } from "@/public/data/team.js";
+export default function Secretary() {
     return (
-        <Teamtemplate color="40,87,255" colorDark="48,58,117">
+        <Teamtemplate color="0,225,244" colorDark="31,49,64">
             <Teamtemplate.Main
                 title={
                     <>
-                        Representatives
-
+                       Club Secretary
+                        
                     </>
                 } />
             <Teamtemplate.Cards
                 features={[
-                    ...rep.map((person, index) => ({
+                    ...secretary.map((person, index) => ({
                         image: person.pic,
                         imageClassName: "",
                         title: person.name,
@@ -21,7 +21,6 @@ export default function Reps() {
                     })),
                     // Other hardcoded cards can be placed here if needed
                 ]}
-
             />
         </Teamtemplate>
 

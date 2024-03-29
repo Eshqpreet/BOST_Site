@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
                 <span className='flex items-center justify-evenly mt-20 text-center'>
                     <p className='text-sm font-[400] text-primary-text leading-8'>
-                        Developed by Eshqpreet Singh & Rohan Pandya
+                        Developed by BOST Team 2024
                     </p>
                 </span>
             </div>

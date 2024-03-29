@@ -14,7 +14,7 @@ const ClubsCard = ({ club }) => {
             </h2>
 
             <div className="mt-2 lg:mt-4 flex items-center justify-between ">
-                <span className="text-center bg-primary-gradient text-offwhite py-1 px-2 lg:py-6 text-lg shadow-primary rounded-xl flex-grow leading-9.5 lg:leading-11 font-semibold">
+                <span className="text-center bg-new text-offwhite py-2 px-3 lg:py-6 text-md shadow rounded-xl flex-grow leading-9.5 lg:leading-11 font-semibold">
                     {about}
                 </span>
             </div>

@@ -21,7 +21,7 @@ export default function Teammain() {
                     {
                         image: "/images/ashwani-sharma.jpg",
                         imageClassName:
-                            "w-[80%]",
+                            "",
                         title: "Dr. Ashwani Sharma",
                         text: "Faculty Advisor, BOST",
                     },

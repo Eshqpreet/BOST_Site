@@ -14,6 +14,7 @@ import TeamList from "@/components/Team/TeamList";
 import ClubsList from "@/components/Clubs/ClubsList";
 import Teammain from "@/components/sections/team_main";
 import Reps from "@/components/sections/reps";
+import Secretary from "@/components/sections/secretary";
 
 export default function HomePage() {
   return (
@@ -69,7 +70,11 @@ export default function HomePage() {
       <div className="my-[25.2rem]">
         <Teammain />
       </div>
+      <div className="my-[25.2rem]">
       <Reps/>
+      </div>
+      <Secretary/>
+      
     </div>
   );
 }
